@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+
+<image class="logo" src="/images/LOGO.jpg"></image>
+
+<view class="menu">
+    <button class="button" wx:for="{{btns}}" wx:key="name" bindtap="{{item.opt}}"
+        style="background-color: {{item.clr}};" plain>
+        {{item.name}}
+    </button>
+</view>
+<!-- 图简洁写了个for循环渲染四个按钮，其实没必要，反正老师看不见（） -->
+<!-- 写在{{}}里的变量，是引用js文件的data里的同名变量 -->
+
+<image class="glass" src="/images/Glass.jpg"></image>

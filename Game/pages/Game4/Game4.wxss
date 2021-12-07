@@ -1,0 +1,106 @@
+/* pages/Game4/Game4.wxss */
+.weui-cells__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:250rpx ;
+  margin-left: 275rpx;
+  color: aliceblue;
+  background-color: #006eff;
+  width: 200rpx;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  text-align: center;
+}
+.weui-input{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top:10px ;
+  margin: 60rpx;
+  height: 70rpx;
+  text-align: center;
+  border: 1px solid #A9A9A9;
+  background-color: rgb(215, 242, 250);
+  border-radius: 5px;
+}
+.start{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:20rpx ;
+  margin-left:275rpx ;
+  color:#fdfcfc;
+  background-color: rgb(98, 107, 230);
+  width: 200rpx;
+  text-align: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+}
+.rule{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:30px ;
+  margin-left:275rpx ;
+  color:#fdfcfc;
+  background-color: rgb(149, 98, 230);
+  width: 200rpx;
+  text-align: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:250rpx ;
+  margin-left: 275rpx;
+  color: aliceblue;
+  background-color: #006eff;
+  width: 200rpx;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  text-align: center;  
+}
+.proposition{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50rpx ;
+  margin-left: 75rpx;
+  color: rgb(29, 110, 182);
+  background-color: #9ecadf;
+  width: 600rpx;
+  height: 50px;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  text-align: center; 
+}
+.answear{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50rpx ;
+  margin-left: 75rpx;
+  color: rgb(29, 110, 182);
+  background-color: #9ecadf;
+  width: 600rpx;
+  height: 50px;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  text-align: center; 
+}
+.submit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:40rpx ;
+  margin-left:275rpx ;
+  color:#fdfcfc;
+  background-color: rgb(98, 107, 230);
+  width: 200rpx;
+  text-align: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+}

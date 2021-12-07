@@ -1,0 +1,48 @@
+/* pages/Game2/Game2.wxss */
+.main-container {
+  display: block;
+  height: 500px;
+  /* background-color: #000; */
+}
+
+.select {
+  position: relative;
+  display: block;
+  height: 222px;
+  width: 222px;
+  top: 15%;
+  margin: 0 auto;
+}
+
+.start-container {
+  display: block;
+  float: left;
+  border: 3px solid white;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.start {
+  display: block;
+  height: 45px;
+  padding: 0;
+  line-height: 45px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  background-color: #f88;
+}
+
+.btncontainer {
+  display: block;
+  float: left;
+  margin: 10px;
+  border: 3px solid;
+  border-radius: 6px;
+  transition: border-color .1s;
+}
+
+.rule {
+  top: 80px;
+  background-color: #c48fc4;
+}

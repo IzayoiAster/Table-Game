@@ -1,0 +1,6 @@
+/* pages/Game2/SelectButton.wxss */
+.btn {
+  height: 45px;
+  color: #fff;
+  transition: background-color .2s;
+}

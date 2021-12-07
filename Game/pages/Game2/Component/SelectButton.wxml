@@ -1,0 +1,6 @@
+<!--pages/Game2/SelectButton.wxml-->
+  <button class="btn" style="width: 30px; background-color: {{isSelected? bclr : '#888'}}"
+  bindtap="changeStatus" disabled="{{disabled}}">
+    {{name}}
+  </button>
+

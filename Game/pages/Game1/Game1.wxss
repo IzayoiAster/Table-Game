@@ -1,0 +1,42 @@
+/* pages/Game1/Game1.wxss */
+.start {
+    margin-top: 300rpx;
+    /*顶边距*/
+}
+
+.inputs {
+    /*这三行是让里面的东西居中*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i1 {
+    float: left;
+    /*让他们在一行里，默认是各自一行*/
+    width: 108rpx;
+    height: 70rpx;
+    border: 1px solid #A9A9A9;
+    /*边框1px粗，实心，颜色*/
+    border-radius: 5px;
+    /*边框圆角尺寸5px*/
+    margin: 8rpx;
+    /*间隔8px*/
+    text-align: center;
+    /*里面的文本居中*/
+}
+
+.on-game {
+    margin-top: 300rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i2 {
+    margin: 60rpx;
+    height: 70rpx;
+    text-align: center;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+}

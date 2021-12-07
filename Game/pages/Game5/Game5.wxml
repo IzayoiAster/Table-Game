@@ -1,0 +1,10 @@
+<!--pages/Game5/Game5.wxml-->
+<view class="gameArea">
+    <view class="inputArea">
+        <view class="hint">上一个成语是：{{lastWord}}</view>
+        <input class="input" type="text" value="{{ans}}" placeholder="{{plchd[curStatus]}}" bindinput="setAns"></input>
+    </view>
+    <button bindtap="nextStep" style="background-color: #FF69B4; color: white; margin-top: 60rpx;" plain>
+        {{btntext[curStatus]}}
+    </button>
+</view>

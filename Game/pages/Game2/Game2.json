@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "btn": "../Game2/Component/SelectButton"
+  },
+  "navigationBarTitleText": "幸运大转盘"
+}

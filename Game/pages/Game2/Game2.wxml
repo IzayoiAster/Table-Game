@@ -1,0 +1,19 @@
+<!--pages/Game2/Game2.wxml-->
+<view class="main-container" style="width: 100%">
+  <view class="select">
+    <view wx:for="{{btns}}" wx:if="{{item.id<4}}" wx:key="name"
+    class="btncontainer" style="border-color: {{item.border}}">
+      <btn identifier="{{item.id}}" bclr="{{item.clr}}" isSelected="{{item.isSelect}}"
+      disabled="{{tapIgnore}}" bindRes="returnStatus"></btn>
+  </view>
+    <view class="start-container">
+      <button class="start" style="width: 48px" bindtap="startGame" disabled="{{tapIgnore}}">开始</button>
+    </view>
+    <view wx:for="{{btns}}" wx:if="{{item.id>3}}" wx:key="name"
+    class="btncontainer" style="border-color: {{item.border}}">
+      <btn identifier="{{item.id}}" bclr="{{item.clr}}" isSelected="{{item.isSelect}}"
+      disabled="{{tapIgnore}}" bindRes="returnStatus"></btn>
+    </view>
+  </view>
+  <button class="rule" bindtap="showRule">规则</button>
+</view>

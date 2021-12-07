@@ -1,0 +1,19 @@
+/* pages/Game5/Game5.wxss */
+.gameArea {
+    margin-top: 300rpx;
+}
+
+.inputArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input {
+    width: 400rpx;
+    height: 70rpx;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+    margin-top: 20px;
+}

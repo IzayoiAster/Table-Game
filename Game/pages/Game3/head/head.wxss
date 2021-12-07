@@ -1,0 +1,31 @@
+.title{
+  width:80%; 
+  font-size:80rpx; 
+  text-align:center; 
+  border-radius:5px;
+  margin:3vh auto; 
+  background-color:pink;
+}
+.line{
+  height:2px; 
+  background-color:grey; 
+  margin-bottom:3vh;
+}
+.start{
+  width:80%; 
+  line-height:120rpx; 
+  font-size:70rpx; 
+  text-align:center; 
+  border-radius:40px; 
+  margin:30vh 10vw 10vh 10vw; 
+  background-color:lightgreen;
+}
+.setting{
+  width:80%; 
+  line-height:120rpx; 
+  font-size:70rpx; 
+  text-align:center; 
+  border-radius:40px; 
+  margin: auto; 
+  background-color:lightgreen;
+}

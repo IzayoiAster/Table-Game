@@ -1,0 +1,13 @@
+<!-- 标题 -->
+<view style="width:80%; font-size:80rpx; text-align:center; border-radius:5px; margin:3vh auto; background-color:pink;">你演我猜</view>
+<!-- 分割线 -->
+<view style="height:2px; background-color:grey; margin-bottom:3vh;"></view>
+<!-- 游戏元素 -->
+<view style="width:90%; text-align:center; line-height:30vh; font-size:60rpx; background-color:white; border-radius:40rpx; margin-left:5%;">{{word}}</view>
+<view class="btn" style="background-color:lightgreen;" bindtap="suc">答对</view>
+<view class="btn" style="background-color:red;" bindtap="skip">略过</view>
+<!-- 倒计时 -->
+<view style="display:flex; position:fixed; bottom:80rpx; justify-content:center; width:100%;">正确数：{{successNum}} </view>
+<view style="display:flex; position:fixed; bottom:30rpx; justify-content:center; width:100%;">倒计时：{{time}} s</view>
+
+

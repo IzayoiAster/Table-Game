@@ -1,0 +1,20 @@
+<!--pages/Game4/Game4.wxml-->
+<view class="page-section" wx:if="{{curStatus == 1}}">
+    <text class="weui-cells__title">请输入命题</text>
+    <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="text" placeholder="最大输入长度为50，例如：书包里面有什么" bindinput="getProposition" />
+        
+    </view>
+    
+    <button class="start" bindtap="start">开始游戏</button>
+    <button class="rule" bindtap="showRule">规则如下</button>
+</view>
+
+<view class="playing" wx:if="{{curStatus == 2}}">
+    <view class='countDown'>倒计时：<text style='color:red'>{{countDownNum}}</text>s</view>
+    <text class="title"> 命题：</text>
+    <text class="proposition">{{inputpro}}</text>
+    <input class="answear" type="text" placeholder="请输入回答"      bindinput="getAnswear"/>
+    <button class="submit" bindtap="submit" >提交答案</button>
+    
+</view>

@@ -1,0 +1,2 @@
+<input type="number" style="border:2px solid white; margin-top:40vh; width:80%; margin-left:10%; border-radius:40rpx; padding-left:3%;" placeholder="时间设置（默认时间60s）" bindinput="timeInput" />
+<view class="confirm" bindtap="confirm">确定</view>

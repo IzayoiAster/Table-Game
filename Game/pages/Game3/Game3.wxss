@@ -1,0 +1,9 @@
+.btn{
+  width:60%; 
+  line-height:80rpx; 
+  font-size:45rpx; 
+  text-align:center; 
+  border-radius:40px; 
+  margin-top: 3vh;
+  margin-left: 20%; 
+}

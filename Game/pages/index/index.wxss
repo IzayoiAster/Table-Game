@@ -1,0 +1,19 @@
+/* pages/index/index.wxss */
+.logo {
+  height: 200rpx;
+  margin-left: 60rpx;
+}
+
+.menu {
+  margin-top: 30rpx;
+}
+
+.button {
+  margin: 40rpx;
+}
+
+.glass {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 270rpx;
+}

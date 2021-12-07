@@ -1,0 +1,25 @@
+<!--pages/Game1/Game1.wxml-->
+<!-- 开始之前的数据设定 -->
+<view class="start" wx:if="{{curStatus == 1}}">
+    <view class="inputs">
+        <!-- 输入相关数据 -->
+        <input class="i1" type="number" placeholder="下界" bindinput="getLower"></input>
+        <input class="i1" type="number" placeholder="上界" bindinput="getUpper"></input>
+        <input class="i1" type="number" placeholder="目标" bindinput="getTarget"></input>
+    </view>
+    <button class="b1" bindtap="start" style="background-color: #FF69B4; color: white; margin-top: 60rpx;" plain>
+        开始！
+    </button>
+    <button class="b1" bindtap="showRule" style="background-color: #8B008B; color: white; margin-top: 60rpx;" plain>
+        点我查看规则
+    </button>
+</view>
+
+<!-- 游戏中界面 -->
+<view class="on-game" wx:if="{{curStatus == 2}}">
+    <text class="t2">当前范围为：{{lower}} 到 {{upper}}</text>
+    <input class="i2" type="number" placeholder="请输入猜的数" bindinput="getAns" value="{{ans}}"></input>
+    <button class="b2" bindtap="checkAns" style="background-color: #FF69B4; color: white;" plain>
+        提交答案
+    </button>
+</view>

@@ -1,0 +1,8 @@
+<!-- 标题 -->
+<view class="title">你演我猜</view>
+<!-- 分割线 -->
+<view class="line"></view>
+<!-- 开始 -->
+<view class="start" bindtap="gameStart">开始游戏</view>
+<!-- 设置 -->
+<view class="setting" bindtap="gameSetting">设置</view>
